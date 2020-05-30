@@ -1,0 +1,106 @@
+body{
+	background-color: #96213c;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: #fa1e51;
+	padding: 20px;
+	border-radius: 0px;
+	border: 0px;
+}
+
+
+/** NavBar- Brand **/
+.navbar-brand span{
+	color: white;
+	font-family: verdana;
+	font-size: 2em;
+	padding-left: 50px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+/** Navbar Button **/
+#collapsable-nav{
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-size: 1.6em;
+}
+#collapsable-nav a:hover, #collapsable-nav a:active{
+	background-color: gray;
+	margin: 5px 20px;
+	color: white;
+	transition: 0.5s;
+	opacity: .8;
+}
+
+/** Main Content **/
+.heading{
+	text-align: center;
+	color: white;
+}	
+
+/** Our Menu **/
+.heading h2{
+	text-shadow: 0px 0px 20px gray;
+}
+#content .items{
+	border: 1px solid white;
+	margin: 40px auto;
+	padding: 10px;
+	font-size: 1.5em;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 0px 30px 15px #f20548;
+}
+#content .items h3{
+	text-align: center;
+	color: #f20554;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+#top{
+	font-size:1.2em;
+	background-color:white;
+	padding:5px;
+	border-radius:5px;
+	text-decoration:none;
+}
+#top a:hover{
+	text-decoration:none;
+	background-color:#ff3b4b;
+	color:#ffffff;
+	border-shadow:0px 0px 30px 10px #f20548;
+	transition:0.8s;
+}
+/** Small Size media **/
+@media (max-width: 767px){
+	#content .items{
+	border: 1px solid white;
+	margin-top: 40px;
+	padding: 10px;
+	font-size: 1.5em;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 0px 40px 15px #f20548;
+	margin: 50px 20px;
+}
+#top{
+	font-size:1.2em;
+	background-color:white;
+	padding:5px;
+	border-radius:5px;
+	text-decoration:none;
+}
+#top a:hover{
+	text-decoration:none;
+	background-color:#ff3b4b;
+	color:#ffffff;
+	border-shadow:0px 0px 30px 10px #f20548;
+	transition:0.8s;
+}
+}
